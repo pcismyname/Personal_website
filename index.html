@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chidsanuphong</title>
 </head>
 <body>
-    
+   <header>
+       <div class="logo">
+       </div>
+       <img src="img/logo.png" style=" max-width: 10%; height: auto;" alt="">
+       <button class="nav-toggle" aria-label="toggle nav">
+           <span class="hamburger"></span>
+       </button>
+       <nav class = "nav">
+            <ul class="nav__list">
+               <li class="nav__item"><a href="#home">Home</a></li>
+               <li class="nav__item"><a href="#experience">My Service</a></li>
+               <li class="nav__item"><a href="#about">About me</a></li>
+               <li class="nav__item"><a href="#work">My work</a></li>
+            </ul>
+       </nav>
+   </header>
+
+   <!-- Introduction -->
+   <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            HI, I am <strong>Chidsanuphong Pengchai</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            นักศึกษาวิศวกรรมศาสตร์ซอฟต์แวร์ ชั้นปีที่ 1 มหาวิทยาลัยธรรมศาสตร์</p>
+        <img src="img/profile.jpg" alt="picture of me" class="intro__img">
+   </section>
+
+   <!--My experience-->
+   <section class="my-experience" id="experience">
+       <h2 class="section__title section__title-experiece">What I do</h2>
+       <div class="experiene">
+            <div class="experiene">
+                <h3>โครงการรับนักเรีนระดับมัธยมศึกษาตอนปลายฝึกทักษะวิจัย <br>
+                ณ ห้องปฏิบัติการของศูนย์วิจัยแห่งชาติ สวทช. ภาคฤฤดูร้อน ปี 2563</h3>
+                <p>เรียนรู้การทำ website ทั้ง Front-end และ Back-end โดยใช้ Flask ซึ่งเป็น Framework ของ Python
+                    โดยเชื่อมต่อกับฐานข้อมล MongoDB</p>
+            </div>
+            <div class="experiene">
+                <h3>เข้าร่วมการแข่งขัน Thailand CANSAT-ROCKET Compettion 2020 รอบชิงชนะเลิศ</h3>
+                <p>รับหน้าที่เป็น Programer ของทีมมีความรับผิดชอบในส่วน CANSAT ซึ่งเป็นดาวเทียมขนาดเล็กมีขนาดเท่ากระป๋องน้ำอัดลม 
+                    ทำหน้าที่เก็บข้อมูลตั้งแต่แต่จรวถูกยิงขึ้นไปจน CANSAT ตกลงมาถึงพื้น
+                    เรียนรู้การใช้ micro-contoller และเทคโนโลยี IoT เช่น LoRa 
+                    เช้าใจหลักการทำงานของ sensors เช่น DHT-21 และหลักการทำงาร GPS</p>
+            </div>
+            <div class="experiene">
+                <h3>
+                </h3>
+                <p></p>
+            </div>
+       </div>
+
+       <a href="work" class="btn"></a>
+   </section>
+
+   <!--About me-->
+   <section class="about-me" id="about">
+       <h2 class="section__title section__title--about">Who I am</h2>
+       <p class="section__subtitle section__subtitle--about">Software Engineer Student </p>
+
+       <div class="about-me__body">
+           <p></p>
+           <p></p>
+       </div>
+       <img src="img/profile.jpg" alt="">
+    </section>
+
+    <!--My work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="img/cansat.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/inventor.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/nstda.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/tj-1.jpg" alt="" class="portfolio__img"> 
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/tj-2.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer>
+        <a href="mailto:chidsanuphomg3@gmail.com " class="footer-link">chidsanuphomg3@gmail.com</a>
+        <ul class="social--list">
+            <li class="social-list__item"> <a class="social-list__item"
+                href="https://www.google.com/">a</a></li>
+            <li class="social-list__item"> <a class="social-list__item"
+                href="https://www.google.com/">b</a></li>
+            <li class="social-list__item"> <a class="social-list__item"
+                href="https://www.google.com/">c</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
